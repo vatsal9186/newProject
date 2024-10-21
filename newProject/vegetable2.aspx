@@ -28,10 +28,10 @@
     <div class="col-lg-4 col-md-6 text-center strawberry">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/cauliflower.jpg" /></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/cabbage.jpg" /></a>
             </div>
             
-            <h3>Potato</h3>
+            <h3>Cabbage</h3>
             <p class="product-price"><span>Per Kg</span> 85₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -39,9 +39,9 @@
     <div class="col-lg-4 col-md-6 text-center berry">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/tomato.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/peas.jpg" alt=""></a>
             </div>
-            <h3>Tomato</h3>
+            <h3>Peas</h3>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -49,9 +49,9 @@
     <div class="col-lg-4 col-md-6 text-center lemon">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/onion.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/ladyfinger.jpg" alt=""></a>
             </div>
-            <h3>Onion</h3>
+            <h3>LadyFinger</h3>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -59,9 +59,9 @@
     <div class="col-lg-4 col-md-6 text-center">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/brinjal.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/beans.jpg" alt=""></a>
             </div>
-            <h3>Brinjal</h3>
+            <h3>Beans</h3>
             <p class="product-price"><span>Per Kg</span> 50₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -69,9 +69,9 @@
     <div class="col-lg-4 col-md-6 text-center">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/broccoli.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/springonion.jpg" alt=""></a>
             </div>
-            <h3>Broccoli</h3>
+            <h3>SpringOnion</h3>
             <p class="product-price"><span>Per Kg</span> 45₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -79,9 +79,9 @@
     <div class="col-lg-4 col-md-6 text-center strawberry">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/cauliflower.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/capsicum.jpg" alt=""></a>
             </div>
-            <h3>Cauliflower</h3>
+            <h3>Capsicum</h3>
             <p class="product-price"><span>Per Kg</span> 80₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -94,9 +94,9 @@
         <div class="single-product-item">
             <div class="product-image">
                 <!-- <a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a> -->
-                <a href="singleproduct.aspx"><img src="assets/img/products/carrot1.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/mushrooms.jpg" alt=""></a>
             </div>
-            <h3>carrot</h3>
+            <h3>Mushrooms</h3>
             <p class="product-price"><span>Per Kg</span> 100₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -104,9 +104,9 @@
     <div class="col-lg-4 col-md-6 text-center berry">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/gingers.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/spinach.jpg" alt=""></a>
             </div>
-            <h3>Gingers</h3>
+            <h3>Spinach</h3>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>
@@ -114,9 +114,9 @@
     <div class="col-lg-4 col-md-6 text-center lemon">
         <div class="single-product-item">
             <div class="product-image">
-                <a href="singleproduct.aspx"><img src="assets/img/products/garlic.jpg" alt=""></a>
+                <a href="singleproduct.aspx"><img src="assets/img/products/corn.jpg" alt=""></a>
             </div>
-            <h3>Garlic</h3>
+            <h3>Corn</h3>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
         </div>

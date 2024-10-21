@@ -109,7 +109,7 @@
 						<%--<li><a href="">Prev</a></li>--%>
 						<!-- <li><a href="#">1</a></li> -->
 						<li><a class="active" href="fruit.aspx">1</a></li>
-						<li><a class="active2" href="fruit2.aspx">2</a></li>
+						<li><a class="" href="fruit2.aspx">2</a></li>
 						<!-- <li><a href="#">3</a></li> -->
 						<%--<li><a href="#">Next</a></li>--%>
 					</ul>

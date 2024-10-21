@@ -255,7 +255,7 @@
 					<ul>
 						
 						<li><a class="active" href="vegetable.aspx">1</a></li>
-						<li><a class="active2" href="vegetable2.aspx">2</a></li>
+						<li><a class="" href="vegetable2.aspx">2</a></li>
 						
 					</ul>
 				</div>
