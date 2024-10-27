@@ -191,6 +191,29 @@
     <Content Include="cart.aspx" />
     <Content Include="checkout.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="css\addons\datatables-select.css" />
+    <Content Include="css\addons\datatables-select.min.css" />
+    <Content Include="css\addons\datatables.css" />
+    <Content Include="css\addons\datatables.min.css" />
+    <Content Include="css\addons\directives.css" />
+    <Content Include="css\addons\directives.min.css" />
+    <Content Include="css\addons\flag.css" />
+    <Content Include="css\addons\flag.min.css" />
+    <Content Include="css\addons\rating.css" />
+    <Content Include="css\addons\rating.min.css" />
+    <Content Include="css\addons\zmd.hierarchical-display.css" />
+    <Content Include="css\addons\zmd.hierarchical-display.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\mdb.css" />
+    <Content Include="css\mdb.lite.css" />
+    <Content Include="css\mdb.lite.min.css" />
+    <Content Include="css\mdb.min.css" />
+    <Content Include="css\modules\animations-extended.css" />
+    <Content Include="css\modules\animations-extended.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style.min.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="fruit2.aspx" />
     <Content Include="fruits.aspx" />
     <Content Include="help-documentation\css\et-line-font\et-line-font.css" />
@@ -211,7 +234,54 @@
     <Content Include="help-documentation\js\pagescroll\custom.css" />
     <Content Include="help-documentation\js\pagescroll\jquery-1.8.3.min.js" />
     <Content Include="help-documentation\js\universal\jquery.js" />
+    <Content Include="img\flags.png" />
+    <Content Include="img\lightbox\default-skin.png" />
+    <Content Include="img\lightbox\default-skin.svg" />
+    <Content Include="img\lightbox\preloader.gif" />
+    <Content Include="img\overlays\01.png" />
+    <Content Include="img\overlays\02.png" />
+    <Content Include="img\overlays\03.png" />
+    <Content Include="img\overlays\04.png" />
+    <Content Include="img\overlays\05.png" />
+    <Content Include="img\overlays\06.png" />
+    <Content Include="img\overlays\07.png" />
+    <Content Include="img\overlays\08.png" />
+    <Content Include="img\overlays\09.png" />
+    <Content Include="img\sample.jpg" />
+    <Content Include="img\svg\arrow_left.svg" />
+    <Content Include="img\svg\arrow_right.svg" />
+    <Content Include="img\svg\flags.png" />
     <Content Include="index2.aspx" />
+    <Content Include="js\addons\datatables-select.js" />
+    <Content Include="js\addons\datatables-select.min.js" />
+    <Content Include="js\addons\datatables.js" />
+    <Content Include="js\addons\datatables.min.js" />
+    <Content Include="js\addons\imagesloaded.pkgd.min.js" />
+    <Content Include="js\addons\jquery.zmd.hierarchical-display.js" />
+    <Content Include="js\addons\jquery.zmd.hierarchical-display.min.js" />
+    <Content Include="js\addons\masonry.pkgd.min.js" />
+    <Content Include="js\addons\progressBar.js" />
+    <Content Include="js\addons\progressBar.min.js" />
+    <Content Include="js\addons\rating.js" />
+    <Content Include="js\addons\rating.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.4.1.min.js" />
+    <Content Include="js\mdb.js" />
+    <Content Include="js\mdb.min.js" />
+    <Content Include="js\modules\bs-custom-file-input.js" />
+    <Content Include="js\modules\chart.js" />
+    <Content Include="js\modules\default-file-input.js" />
+    <Content Include="js\modules\enhanced-modals.js" />
+    <Content Include="js\modules\forms-free.js" />
+    <Content Include="js\modules\jquery.easing.js" />
+    <Content Include="js\modules\scrolling-navbar.js" />
+    <Content Include="js\modules\treeview.js" />
+    <Content Include="js\modules\velocity.js" />
+    <Content Include="js\modules\velocity.min.js" />
+    <Content Include="js\modules\waves.js" />
+    <Content Include="js\modules\wow.js" />
+    <Content Include="js\popper.min.js" />
     <Content Include="shop.aspx" />
     <Content Include="singleproduct.aspx" />
     <Content Include="vegetable.aspx" />
@@ -229,6 +299,7 @@
     </Compile>
     <Compile Include="Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
@@ -253,6 +324,13 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="fruit2.aspx.cs">
       <DependentUpon>fruit2.aspx</DependentUpon>
@@ -292,6 +370,7 @@
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -400,8 +479,73 @@
     <Content Include="help-documentation\css\font-awesome\scss\_stacked.scss" />
     <Content Include="help-documentation\css\font-awesome\scss\_variables.scss" />
     <Content Include="Admin.Master" />
+    <Content Include="font\roboto\Roboto-Bold.eot" />
+    <Content Include="font\roboto\Roboto-Bold.ttf" />
+    <Content Include="font\roboto\Roboto-Bold.woff" />
+    <Content Include="font\roboto\Roboto-Bold.woff2" />
+    <Content Include="font\roboto\Roboto-Light.eot" />
+    <Content Include="font\roboto\Roboto-Light.ttf" />
+    <Content Include="font\roboto\Roboto-Light.woff" />
+    <Content Include="font\roboto\Roboto-Light.woff2" />
+    <Content Include="font\roboto\Roboto-Medium.eot" />
+    <Content Include="font\roboto\Roboto-Medium.ttf" />
+    <Content Include="font\roboto\Roboto-Medium.woff" />
+    <Content Include="font\roboto\Roboto-Medium.woff2" />
+    <Content Include="font\roboto\Roboto-Regular.eot" />
+    <Content Include="font\roboto\Roboto-Regular.ttf" />
+    <Content Include="font\roboto\Roboto-Regular.woff" />
+    <Content Include="font\roboto\Roboto-Regular.woff2" />
+    <Content Include="font\roboto\Roboto-Thin.eot" />
+    <Content Include="font\roboto\Roboto-Thin.ttf" />
+    <Content Include="font\roboto\Roboto-Thin.woff" />
+    <Content Include="font\roboto\Roboto-Thin.woff2" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
+    <Content Include="scss\addons\_datatables-select.scss" />
+    <Content Include="scss\addons\_datatables.scss" />
+    <Content Include="scss\addons\_directives.scss" />
+    <Content Include="scss\addons\_flags.scss" />
+    <Content Include="scss\addons\_hierarchical-display.scss" />
+    <Content Include="scss\addons\_rating.scss" />
+    <Content Include="scss\core\bootstrap\_functions.scss" />
+    <Content Include="scss\core\bootstrap\_rfs.scss" />
+    <Content Include="scss\core\bootstrap\_variables.scss" />
+    <Content Include="scss\core\_colors.scss" />
+    <Content Include="scss\core\_global.scss" />
+    <Content Include="scss\core\_helpers.scss" />
+    <Content Include="scss\core\_masks.scss" />
+    <Content Include="scss\core\_mixins.scss" />
+    <Content Include="scss\core\_typography.scss" />
+    <Content Include="scss\core\_variables.scss" />
+    <Content Include="scss\core\_waves.scss" />
+    <Content Include="scss\free\modules\animations-extended\animations-extended.scss" />
+    <Content Include="scss\free\modules\animations-extended\_module.scss" />
+    <Content Include="scss\free\_animations-basic.scss" />
+    <Content Include="scss\free\_badges.scss" />
+    <Content Include="scss\free\_buttons.scss" />
+    <Content Include="scss\free\_cards.scss" />
+    <Content Include="scss\free\_carousels.scss" />
+    <Content Include="scss\free\_depreciated.scss" />
+    <Content Include="scss\free\_dropdowns.scss" />
+    <Content Include="scss\free\_footers.scss" />
+    <Content Include="scss\free\_forms.scss" />
+    <Content Include="scss\free\_input-group.scss" />
+    <Content Include="scss\free\_list-group.scss" />
+    <Content Include="scss\free\_loader.scss" />
+    <Content Include="scss\free\_modals.scss" />
+    <Content Include="scss\free\_msc.scss" />
+    <Content Include="scss\free\_navbars.scss" />
+    <Content Include="scss\free\_pagination.scss" />
+    <Content Include="scss\free\_steppers.scss" />
+    <Content Include="scss\free\_switch.scss" />
+    <Content Include="scss\free\_tables.scss" />
+    <Content Include="scss\free\_treeview.scss" />
+    <Content Include="scss\mdb.lite.scss" />
+    <Content Include="scss\mdb.scss" />
+    <Content Include="scss\style.scss" />
+    <Content Include="scss\_custom-skin.scss" />
+    <Content Include="scss\_custom-styles.scss" />
+    <Content Include="scss\_custom-variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -89,7 +89,7 @@
 									<li><a href="checkout.aspx">Checkout</a></li>
 									<!-- <li><a href="contact.html">Contact</a></li> -->
 									<!-- <li><a href="news.html">News</a></li> -->
-									<li><a href="shop.aspx">Shop</a></li>
+									<%--<li><a href="shop.aspx">Shop</a></li>--%>
 								</ul>
 							</li>
 							<!-- <li><a href="news.html">Vegitables</a>
