@@ -1,115 +1,362 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="newProject.Login" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="login-header box-shadow">
-		<div class="container-fluid d-flex justify-content-between align-items-center">
-			<div class="brand-logo">
-				<%--<a href="Dashboard.aspx">
-					<img src="vendors/images/deskapp-logo.svg" alt="">
-				</a>--%>
-			</div>
-			<!-- <div class="login-menu">
-				<ul>
-					<li><a href="register.html">Register</a></li>
-				</ul>
-			</div> -->
-		</div>
-	</div>
-	<div class="login-wrap d-flex align-items-center flex-wrap justify-content-center">
-		<div class="container" style="padding:50px; margin-left:250px">
-			<div class="row align-items-center">
-				<div class="col-md-6 col-lg-7">
-					<img src="vendors/images/login-page-img.png" alt="">
-				</div>
-				<div class="col-md-6 col-lg-5">
-					<div class="login-box bg-white box-shadow border-radius-10">
-						<div class="login-title">
-							<h2 class="text-center text-primary">Login To Your Account</h2>
-                            <br />
-							<%--<p class="text-center text-primary">&nbsp;</p>--%>
-							<p class="text-center text-primary">
-									 <asp:TextBox ID="TextBox1" runat="server" Width="350px"></asp:TextBox>
-							</p>
-                            <p class="text-center text-primary">
-									 <asp:TextBox ID="TextBox2" runat="server" Width="350px"></asp:TextBox>
-							</p>
-							<%--<p class="text-center text-primary">&nbsp;</p>--%>
-							<%--<p class="text-center text-primary">
-									<asp:TextBox ID="TextBox2" runat="server" Width="350px"></asp:TextBox>
-							</p>--%>
-						</div>
-						<form>
-							<!-- <div class="select-role">
-								<div class="btn-group btn-group-toggle" data-toggle="buttons">
-									<label class="btn active">
-										<input type="radio" name="options" id="admin">
-										<div class="icon"><img src="vendors/images/briefcase.svg" class="svg" alt=""></div>
-										<span>I'm</span>
-										Manager
-									</label>
-									<label class="btn">
-										<input type="radio" name="options" id="user">
-										<div class="icon"><img src="vendors/images/person.svg" class="svg" alt=""></div>
-										<span>I'm</span>
-										Employee
-									</label>
-								</div>
-							</div> -->
-							<%--<div class="input-group custom">
-								<input type="text" class="form-control form-control-lg" placeholder="Username">
-								<div class="input-group-append custom">
-									<span class="input-group-text"><i class="icon-copy dw dw-user1"></i></span>
-								</div>
-							</div>--%>
-							<%--<p class="text-center text-primary">&nbsp;</p>--%>
-								<%--<p class="text-center text-primary">
-										<asp:TextBox ID="TextBox1" runat="server" Width="350px"></asp:TextBox>
-								</p>--%>
-							<%--<div class="input-group custom">
-								<input type="password" class="form-control form-control-lg" placeholder="**********">
-								<div class="input-group-append custom">
-									<span class="input-group-text"><i class="dw dw-padlock1"></i></span>
-								</div>
-							</div>--%>
-							<div class="row pb-30">
-								<div class="col-6">
-									<div class="custom-control custom-checkbox">
-										<input type="checkbox" class="custom-control-input" id="customCheck1">
-										<label class="custom-control-label" for="customCheck1">Remember</label>
-									</div>
-								</div>
-								<div class="col-6">
-									<!-- <div class="forgot-password"><a href="forgot-password.html">Forgot Password</a></div> -->
-									<div class="forgot-password"><a href="#">Forgot Password</a></div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="input-group mb-0">
-										<!--
-											use code for form submit
-											<input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign In">
-										-->
-										<%--<a class="btn btn-primary btn-lg btn-block" href="index.html">Sign In</a>--%>
-										<asp:Button ID="Button1" runat="server" Text="Sign In" Width="1403px" class="btn btn-primary btn-lg btn-block"/>
-									</div>
-									<!-- <div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">OR</div>
-									<div class="input-group mb-0">
-										<a class="btn btn-outline-primary btn-lg btn-block" href="register.html">Register To Create Account</a>
-									</div> -->
-								</div>
-							</div>
-						</form>
-					    
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- js -->
-	<script src="vendors/scripts/core.js"></script>
-	<script src="vendors/scripts/script.min.js"></script>
-	<script src="vendors/scripts/process.js"></script>
-	<script src="vendors/scripts/layout-settings.js"></script>
-</asp:Content>
+﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="newProject.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body style="height: 314px; width: 1322px">
+    <form id="form1" runat="server">
+        <div>
+            <asp:Panel ID="Panel1" runat="server" Height="313px" BackColor="#669999">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Text="Login To The Account" BackColor="#669999" ForeColor="White"></asp:Label>
+                <br />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" Width="218px" ></asp:TextBox>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox1_TextChanged" Width="218px"></asp:TextBox>
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:CheckBox ID="CheckBox1" runat="server" Text="Stay Signed in" />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button1" runat="server" BackColor="White" Text="Submit" />
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>--%>
+
+<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="newProject.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #form1 {
+            background-color: #669999;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .label {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center;
+        }
+
+        .textbox {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .checkbox {
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: white;
+            color: #669999;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var username = document.getElementById('<%= TextBox1.ClientID %>').value;
+            var password = document.getElementById('<%= TextBox2.ClientID %>').value;
+
+            if (username === "" || password === "") {
+                alert("Please fill in both fields.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server" onsubmit="return validateForm();">
+        <div>
+            <asp:Panel ID="Panel1" runat="server">
+                <asp:Label ID="Label1" runat="server" CssClass="label" Text="Login To The Account"></asp:Label>
+                <asp:TextBox ID="TextBox1" runat="server" CssClass="textbox" Placeholder="Enter Username"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password" Placeholder="Enter Password"></asp:TextBox>
+                <asp:CheckBox ID="CheckBox1" runat="server" CssClass="checkbox" Text="Stay Signed in" />
+                <asp:Button ID="Button1" runat="server" CssClass="button" Text="Submit" />
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>--%>
+
+
+
+<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="newProject.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #form1 {
+            background-color: #669999;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .label {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center;
+        }
+
+        .textbox {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+        .checkbox {
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: white;
+            color: #669999;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var username = document.getElementById('<%= TextBox1.ClientID %>').value;
+            var password = document.getElementById('<%= TextBox2.ClientID %>').value;
+            var usernameError = document.getElementById('usernameError');
+            var passwordError = document.getElementById('passwordError');
+            var isValid = true;
+
+            usernameError.innerText = "";
+            passwordError.innerText = "";
+
+            if (username === "") {
+                usernameError.innerText = "Username is required.";
+                isValid = false;
+            }
+
+            if (password === "") {
+                passwordError.innerText = "Password is required.";
+                isValid = false;
+            }
+
+            if (isValid) {
+                // Check for valid credentials
+                if (username === "vatsal" && password === "123") {
+                    alert("Login successful!");
+                } else {
+                    alert("Invalid username or password.");
+                    isValid = false;
+                }
+            }
+
+            return isValid;
+        }
+    </script>
+</head> 
+<body>
+    <form id="form1" runat="server" onsubmit="return validateForm();">
+        <div>
+            <asp:Panel ID="Panel1" runat="server">
+                <asp:Label ID="Label1" runat="server" CssClass="label" Text="Login To The Account"></asp:Label>
+                <asp:TextBox ID="TextBox1" runat="server" CssClass="textbox" Placeholder="Enter Username"></asp:TextBox>
+                <span id="usernameError" class="error"></span>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password" Placeholder="Enter Password"></asp:TextBox>
+                <span id="passwordError" class="error"></span>
+                <asp:CheckBox ID="CheckBox1" runat="server" CssClass="checkbox" Text="Stay Signed in" />
+                <asp:Button ID="Button1" runat="server" CssClass="button" Text="Submit" />
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>--%>
+
+
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="newProject.Login" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login Page</title>
+    <style>
+        body {
+            background: url('https://www.example.com/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #form1 {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+        .label {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .textbox {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .checkbox {
+            margin: 10px 0;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var username = document.getElementById('<%= TextBox1.ClientID %>').value;
+            var password = document.getElementById('<%= TextBox2.ClientID %>').value;
+            var usernameError = document.getElementById('usernameError');
+            var passwordError = document.getElementById('passwordError');
+            var isValid = true;
+            usernameError.innerText = "";
+            passwordError.innerText = "";
+            if (username === "") {
+                usernameError.innerText = "Username is required.";
+                isValid = false;
+            }
+            if (password === "") {
+                passwordError.innerText = "Password is required.";
+                isValid = false;
+            }
+            if (isValid) {
+                // Check for valid credentials
+                if (username === "vatsal" && password === "123") {
+                    alert("Login successful!");
+                } else {
+                    alert("Invalid username or password.");
+                    isValid = false;
+                }
+            }
+            return isValid;
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server" onsubmit="return validateForm();">
+        <div>
+            <asp:Panel ID="Panel1" runat="server">
+                <asp:Label ID="Label1" runat="server" CssClass="label" Text="Login To The Account"></asp:Label>
+                <asp:TextBox ID="TextBox1" runat="server" CssClass="textbox" Placeholder="Enter Username"></asp:TextBox>
+                <span id="usernameError" class="error"></span>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password" Placeholder="Enter Password"></asp:TextBox>
+                <span id="passwordError" class="error"></span>
+                <asp:CheckBox ID="CheckBox1" runat="server" CssClass="checkbox" Text="Stay Signed in" />
+                <asp:Button ID="Button1" runat="server" CssClass="button" Text="Submit" OnClick="Button1_Click" />
+                <div class="footer">
+                    <p>Forgot your password? <a href="#">Click here</a></p>
+                </div>
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>
+

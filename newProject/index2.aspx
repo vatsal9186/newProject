@@ -146,31 +146,37 @@
 	<div class="col-lg-4 col-md-6 text-center">
 		<div class="single-product-item">
 			<div class="product-image">
-				<a href="singleproduct.aspx"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
+				<%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-1.jpg" alt=""></a>--%>
+				 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-1.jpg" runat="server" /></a>
 			</div>
 			<h3>Strawberry</h3>
 			<p class="product-price"><span>Per Kg</span> 85₹ </p>
-			<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+			<%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
+			<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add to Cart" />
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 text-center">
 		<div class="single-product-item">
 			<div class="product-image">
-				<a href="singleproduct.aspx"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
+				<%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-2.jpg" alt=""></a>--%>
+				 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-2.jpg" runat="server" /></a>
 			</div>
 			<h3>Berry</h3>
 			<p class="product-price"><span>Per Kg</span> 70₹ </p>
-			<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+			<%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
+			<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Add to Cart" />
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
 		<div class="single-product-item">
 			<div class="product-image">
-				<a href="singleproduct.aspx"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
+				<%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-3.jpg" alt=""></a>--%>
+				 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-3.jpg" runat="server" /></a>
 			</div>
 			<h3>Lemon</h3>
 			<p class="product-price"><span>Per Kg</span> 35₹ </p>
-			<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+			<%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
+			<asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Add to Cart" />
 		</div>
 	</div>
 </div>
