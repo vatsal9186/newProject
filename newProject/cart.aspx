@@ -110,10 +110,11 @@
 								</tr>
 							</tbody>
 						</table>
-						<div class="cart-buttons">
+
+						<%--<div class="cart-buttons">
 							<a href="cart.aspx" class="boxed-btn">Update Cart</a>
 							<a href="checkout.aspx" class="boxed-btn black">Check Out</a>
-						</div>
+						</div>--%>
 					</div>
 
 					<%--<div class="coupon-section">
