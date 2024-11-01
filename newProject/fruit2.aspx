@@ -16,6 +16,7 @@
             <p class="product-price"><span>Per Kg</span> 85₹ </p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add to Cart" />
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
+           <asp:Button ID="Button10" runat="server" Text="Buy Now" />
         </div>
     </div>
     <div class="col-lg-4 col-md-6 text-center berry">
@@ -29,7 +30,8 @@
             <p class="product-price"><span>Per Kg</span> 70₹</p>
             <%--<p class="product-price">&nbsp;<asp:Button ID="Button2" runat="server" Text="Button" />--%>
              <asp:Button ID="Button2" runat="server" Text="Add to Cart" OnClick="Button2_Click" />
-            </p>
+            <asp:Button ID="Button11" runat="server" Text="Buy Now" />
+            
 
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
         </div>
@@ -45,7 +47,7 @@
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button3" runat="server" Text="Add to Cart" OnClick="Button3_Click" />
-
+            <asp:Button ID="Button12" runat="server" Text="Buy Now" />
         </div>
     </div>
 
@@ -60,6 +62,7 @@
             <p class="product-price"><span>Per Kg</span> 50₹ </p>
            <%-- <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button4" runat="server" Text="Add to Cart" OnClick="Button4_Click" />
+            <asp:Button ID="Button13" runat="server" Text="Buy Now" />
         </div>
     </div>
     <div class="col-lg-4 col-md-6 text-center">
@@ -73,6 +76,7 @@
             <p class="product-price"><span>Per Kg</span> 45₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button5" runat="server" Text="Add to Cart" OnClick="Button5_Click" />
+            <asp:Button ID="Button14" runat="server" Text="Buy Now" />
         </div>
     </div>
     <div class="col-lg-4 col-md-6 text-center strawberry">
@@ -86,6 +90,7 @@
             <p class="product-price"><span>Per Kg</span> 80₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button6" runat="server"  Text="Add to Cart" OnClick="Button6_Click" />
+            <asp:Button ID="Button15" runat="server" Text="Buy Now" />
         </div>
     </div>
 </div>
@@ -104,6 +109,7 @@
             <p class="product-price"><span>Per Kg</span> 100₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button7" runat="server" Text="Add to Cart" OnClick="Button7_Click" />
+            <asp:Button ID="Button16" runat="server" Text="Buy Now" />
         </div>
     </div>
     <div class="col-lg-4 col-md-6 text-center berry">
@@ -113,10 +119,11 @@
                 <a href="#"><asp:Image ImageUrl="assets/img/products/jackfruit.jpg" runat="server" /></a>
             </div>
             <%--<h3>Jack Friut</h3>--%>
-            <asp:Label ID="Label8" runat="server" Text=Jack Fruit></asp:Label>
+            <asp:Label ID="Label8" runat="server" Text=JackFruit></asp:Label>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button8" runat="server" Text="Add to Cart" OnClick="Button8_Click" />
+            <asp:Button ID="Button17" runat="server" Text="Buy Now" />
         </div>
     </div>
     <div class="col-lg-4 col-md-6 text-center lemon">
@@ -132,6 +139,7 @@
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button9" runat="server" Text="Add to Cart" OnClick="Button9_Click" />
+            <asp:Button ID="Button18" runat="server" Text="Buy Now" />
         </div>
     </div>
 </div>
@@ -216,8 +224,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+
 
 
 
