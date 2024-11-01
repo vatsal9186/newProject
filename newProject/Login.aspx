@@ -5,7 +5,7 @@
     <title>Login Page</title>
     <style>
     body {
-        background: url('https://www.example.com/background.jpg') no-repeat center center fixed;
+        /*background: url('https://www.pexels.com/photo/architectural-photography-of-bridge-459203/') no-repeat center center fixed;*/
         background-size: cover;
         font-family: 'Arial', sans-serif;
         display: flex;
