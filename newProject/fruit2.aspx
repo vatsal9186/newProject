@@ -11,7 +11,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/melon.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/melon.jpg" runat="server" /></a>
             </div>
-            <h3>Melon</h3>
+            <%--<h3>Melon</h3>--%>
+            <asp:Label ID="Label1" runat="server" Text=Guava></asp:Label>
             <p class="product-price"><span>Per Kg</span> 85₹ </p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add to Cart" />
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
@@ -23,7 +24,8 @@
                <%-- <a href="singleproduct.aspx"><img src="assets/img/products/papaya.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/papaya.jpg" runat="server" /></a>
             </div>
-            <h3>Papaya</h3>
+            <%--<h3>Papaya</h3>--%>
+            <asp:Label ID="Label2" runat="server" Text=Papaya></asp:Label>
             <p class="product-price"><span>Per Kg</span> 70₹</p>
             <%--<p class="product-price">&nbsp;<asp:Button ID="Button2" runat="server" Text="Button" />--%>
              <asp:Button ID="Button2" runat="server" Text="Add to Cart" OnClick="Button2_Click" />
@@ -38,7 +40,8 @@
                 <%--<a href="#"><img src="assets/img/products/cherry.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/cherry.jpg" runat="server" /></a>
             </div>
-            <h3>Cherry</h3>
+            <%--<h3>Cherry</h3>--%>
+            <asp:Label ID="Label3" runat="server" Text=Cherry></asp:Label>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button3" runat="server" Text="Add to Cart" OnClick="Button3_Click" />
@@ -52,7 +55,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/lychee.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/lychee.jpg" runat="server" /></a>
             </div>
-            <h3>Lychee</h3>
+            <%--<h3>Lychee</h3>--%>
+            <asp:Label ID="Label4" runat="server" Text=Lychee></asp:Label>
             <p class="product-price"><span>Per Kg</span> 50₹ </p>
            <%-- <a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button4" runat="server" Text="Add to Cart" OnClick="Button4_Click" />
@@ -64,7 +68,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/pomegranate.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/pomegranate.jpg" runat="server" /></a>
             </div>
-            <h3>Pomegranate</h3>
+            <%--<h3>Pomegranate</h3>--%>
+            <asp:Label ID="Label5" runat="server" Text=Pomegranate></asp:Label>
             <p class="product-price"><span>Per Kg</span> 45₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button5" runat="server" Text="Add to Cart" OnClick="Button5_Click" />
@@ -76,7 +81,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/chikkoo.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/chikkoo.jpg" runat="server" /></a>
             </div>
-            <h3>Chikkoo</h3>
+            <%--<h3>Chikkoo</h3>--%>
+            <asp:Label ID="Label6" runat="server" Text=Chickoo></asp:Label>
             <p class="product-price"><span>Per Kg</span> 80₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button6" runat="server"  Text="Add to Cart" OnClick="Button6_Click" />
@@ -93,7 +99,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/peach.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/peach.jpg" runat="server" /></a>
             </div>
-            <h3>Peach</h3>
+            <%--<h3>Peach</h3>--%>
+            <asp:Label ID="Label7" runat="server" Text=Peach></asp:Label>
             <p class="product-price"><span>Per Kg</span> 100₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button7" runat="server" Text="Add to Cart" OnClick="Button7_Click" />
@@ -105,7 +112,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/jackfruit.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/jackfruit.jpg" runat="server" /></a>
             </div>
-            <h3>Jack Friut</h3>
+            <%--<h3>Jack Friut</h3>--%>
+            <asp:Label ID="Label8" runat="server" Text=Jack Fruit></asp:Label>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button8" runat="server" Text="Add to Cart" OnClick="Button8_Click" />
@@ -119,7 +127,8 @@
                        <a href="#"><asp:Image ImageUrl="assets/img/products/guava.jpg" runat="server" /></a>
                     </div>  
             </div>
-            <h3>Guava</h3>
+            <%--<h3>Guava</h3>--%>
+            <asp:Label ID="Label9" runat="server" Text=Guava></asp:Label>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
              <asp:Button ID="Button9" runat="server" Text="Add to Cart" OnClick="Button9_Click" />

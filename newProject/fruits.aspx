@@ -11,7 +11,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-1.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-1.jpg" runat="server" /></a>
             </div>
-            <h3>Strawberry</h3>
+            <%--<h3>Strawberry</h3>--%>
+            <asp:Label ID="Label1" runat="server" Text=Strawberry></asp:Label>
             <p class="product-price"><span>Per Kg</span> 85₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button1" runat="server" Text="Add to Cart" OnClick="Button1_Click" />
@@ -26,7 +27,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-2.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-2.jpg" runat="server" /></a>
             </div>
-            <h3>Berry</h3>
+            <%--<h3>Berry</h3>--%>
+            <asp:Label ID="Label2" runat="server" Text=Berry></asp:Label>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
            <asp:Button ID="Button2" runat="server" Text="Add to Cart" OnClick="Button2_Click" />
@@ -38,7 +40,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/pineple2.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/pineple2.jpg" runat="server" /></a>
             </div>
-            <h3>Pineple</h3>
+            <%--<h3>Pineple</h3>--%>
+            <asp:Label ID="Label3" runat="server" Text=Pineple></asp:Label>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button3" runat="server" Text="Add to Cart" OnClick="Button3_Click" />s
@@ -50,7 +53,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-4.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-4.jpg" runat="server" /></a>
             </div>
-            <h3>Avocado</h3>
+            <%--<h3>Avocado</h3>--%>
+            <asp:Label ID="Label4" runat="server" Text=Avocado></asp:Label>
             <p class="product-price"><span>Per Kg</span> 50₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button4" runat="server" Text="Add to Cart" OnClick="Button4_Click" /> 
@@ -62,7 +66,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/product-img-5.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/product-img-5.jpg" runat="server" /></a>
             </div>
-            <h3>Green Apple</h3>
+            <%--<h3>Green Apple</h3>--%>
+            <asp:Label ID="Label5" runat="server" Text=Green Apple></asp:Label>
             <p class="product-price"><span>Per Kg</span> 45₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button5" runat="server" Text="Add to Cart" OnClick="Button5_Click" />
@@ -74,7 +79,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/watermelon.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/watermelon.jpg" runat="server" /></a>
             </div>
-            <h3>Watermelon</h3>
+            <%--<h3>Watermelon</h3>--%>
+            <asp:Label ID="Label6" runat="server" Text=Watermelon></asp:Label>
             <p class="product-price"><span>Per Kg</span> 80₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button6" runat="server" Text="Add to Cart" OnClick="Button6_Click" />
@@ -91,7 +97,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/mango1.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/mango1.jpg" runat="server" /></a>
             </div>
-            <h3>Mango</h3>
+            <%--<h3>Mango</h3>--%>
+            <asp:Label ID="Label7" runat="server" Text=Mango></asp:Label>
             <p class="product-price"><span>Per Kg</span> 100₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button7" runat="server" Text="Add to Cart" OnClick="Button7_Click" />
@@ -104,7 +111,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/banana.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/banana.jpg" runat="server" /></a>
             </div>
-            <h3>Banana</h3>
+            <%--<h3>Banana</h3>--%>
+            <asp:Label ID="Label8" runat="server" Text=Banana></asp:Label>
             <p class="product-price"><span>Per Kg</span> 70₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button8" runat="server" Text="Add to Cart" OnClick="Button8_Click" />
@@ -117,7 +125,8 @@
                 <%--<a href="singleproduct.aspx"><img src="assets/img/products/dragonF.jpg" alt=""></a>--%>
                 <a href="#"><asp:Image ImageUrl="assets/img/products/dragonF.jpg" runat="server" /></a>
             </div>
-            <h3>Dragon Fruit</h3>
+            <%--<h3>Dragon Fruit</h3>--%>
+            <asp:Label ID="Label9" runat="server" Text=Dragon Fruit></asp:Label>
             <p class="product-price"><span>Per Kg</span> 35₹ </p>
             <%--<a href="cart.aspx" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>--%>
             <asp:Button ID="Button9" runat="server" Text="Add to Cart" OnClick="Button9_Click" />
